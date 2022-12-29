@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hmerniz\\.nuget\\packages\\": {}
+    "C:\\Users\\HMerniz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Contract\\Contract.csproj",
+      "projectUniqueName": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Contract\\Contract.csproj",
       "projectName": "Contract",
-      "projectPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Contract\\Contract.csproj",
-      "packagesPath": "C:\\Users\\hmerniz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Contract\\obj\\",
+      "projectPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Contract\\Contract.csproj",
+      "packagesPath": "C:\\Users\\HMerniz\\.nuget\\packages\\",
+      "outputPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Contract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hmerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HMerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

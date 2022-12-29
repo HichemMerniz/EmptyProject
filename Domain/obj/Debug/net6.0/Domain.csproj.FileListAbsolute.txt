@@ -12,3 +12,17 @@ C:\Users\hmerniz\RiderProjects\EmptyProject\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\hmerniz\RiderProjects\EmptyProject\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\hmerniz\RiderProjects\EmptyProject\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
 C:\Users\hmerniz\RiderProjects\EmptyProject\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\bin\Debug\net6.0\Domain.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\bin\Debug\net6.0\Domain.pdb
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\refint\Domain.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.pdb
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Domain\obj\Debug\net6.0\ref\Domain.dll

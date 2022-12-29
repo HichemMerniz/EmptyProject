@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Infrastructure\\Infrastructure.csproj": {}
+    "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Application\\Application.csproj": {
+    "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\hmerniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Application\\obj\\",
+        "projectPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\HMerniz\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hmerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Domain\\Domain.csproj"
+              "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -49,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Domain\\Domain.csproj": {
+    "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\hmerniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Domain\\obj\\",
+        "projectPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\HMerniz\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hmerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,7 +124,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hmerniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Infrastructure\\obj\\",
+        "projectPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\HMerniz\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hmerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HMerniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\hmerniz\\RiderProjects\\EmptyProject\\Application\\Application.csproj"
+              "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Application\\Application.csproj": {
+                "projectPath": "E:\\Projects\\CodeQr\\Backend\\EmptyProject\\Application\\Application.csproj"
               }
             }
           }
@@ -176,9 +178,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.10.0, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
@@ -191,7 +201,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -200,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

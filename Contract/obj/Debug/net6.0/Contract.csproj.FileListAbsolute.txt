@@ -10,3 +10,15 @@ C:\Users\hmerniz\RiderProjects\EmptyProject\Contract\obj\Debug\net6.0\Contract.d
 C:\Users\hmerniz\RiderProjects\EmptyProject\Contract\obj\Debug\net6.0\refint\Contract.dll
 C:\Users\hmerniz\RiderProjects\EmptyProject\Contract\obj\Debug\net6.0\Contract.pdb
 C:\Users\hmerniz\RiderProjects\EmptyProject\Contract\obj\Debug\net6.0\ref\Contract.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\bin\Debug\net6.0\Contract.deps.json
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\bin\Debug\net6.0\Contract.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\bin\Debug\net6.0\Contract.pdb
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.csproj.AssemblyReference.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.AssemblyInfoInputs.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.AssemblyInfo.cs
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.csproj.CoreCompileInputs.cache
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\refint\Contract.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\Contract.pdb
+E:\Projects\CodeQr\Backend\EmptyProject\Contract\obj\Debug\net6.0\ref\Contract.dll
