@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "6.0.0.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -304,6 +305,30 @@
         "runtime": {
           "Domain.dll": {}
         }
+      },
+      "Microsoft.AspNetCore.Mvc.Abstractions/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1222.57109"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Routing.Abstractions/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Routing.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1222.57109"
+          }
+        }
+      },
+      "Microsoft.Extensions.Features/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Features.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1222.57109"
+          }
+        }
       }
     }
   },
@@ -518,6 +543,21 @@
     },
     "Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.Abstractions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Routing.Abstractions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Features/6.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

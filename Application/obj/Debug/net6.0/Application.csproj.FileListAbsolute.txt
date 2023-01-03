@@ -28,3 +28,6 @@ E:\Projects\CodeQr\Backend\EmptyProject\Application\obj\Debug\net6.0\Application
 E:\Projects\CodeQr\Backend\EmptyProject\Application\obj\Debug\net6.0\refint\Application.dll
 E:\Projects\CodeQr\Backend\EmptyProject\Application\obj\Debug\net6.0\Application.pdb
 E:\Projects\CodeQr\Backend\EmptyProject\Application\obj\Debug\net6.0\ref\Application.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Application\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Application\bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Projects\CodeQr\Backend\EmptyProject\Application\bin\Debug\net6.0\Microsoft.Extensions.Features.dll

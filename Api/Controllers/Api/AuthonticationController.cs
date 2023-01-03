@@ -57,7 +57,8 @@ public class AuthonticationController : ControllerBase
     [AllowAnonymous]
     public async Task<IActionResult> Login(LoginUserDto user)
     {
-        if (!await _authManager.ValidateUser(user)) return Unauthorized("Token expired");
+        Console.WriteLine(user);
+        if (!await _authManager.ValidateUser(user)) return Unauthorized("Error");
 
         return Ok(new { Token = await _authManager.CreateToken() });
     }
@@ -72,6 +73,7 @@ public class AuthonticationController : ControllerBase
         var result =
             await _userManager
                 .CreateAsync(user, createUserDto.Password);
+        await _userManager.AddToRoleAsync(user, createUserDto.ProfileName);
         if (!result.Succeeded)
         {
             foreach (var error in result.Errors) ModelState.TryAddModelError(error.Code, error.Description);

@@ -1,4 +1,4 @@
-﻿ using Application.DTOs.Users;
+﻿using Application.DTOs.Users;
 using Application.IRepositories;
 using Domain.Models;
 using Microsoft.AspNetCore.Identity;
@@ -53,20 +53,33 @@ public class UserRepository : IUserRepository
     {
         var user = _AppDbContext.Set<Users>().FirstOrDefault(b => b.Id == id);
         PasswordHasher<Users> ph = new();
+        if (newUser.Password != null)
+        {
+            var newPassword = ph.HashPassword(user, newUser.Password);
+            user.PasswordHash = newUser.Password != null ? newPassword : user.PasswordHash;
+        }
 
         if (user == null) return user;
 
+        var roleString = user.ProfileName;
+        var newRoleString = newUser.ProfileName;
         if (user != null)
         {
             user.UserName = newUser.FullName != null ? newUser.FullName : user.UserName;
             user.Email = newUser.Mail != null ? newUser.Mail : user.Email;
             user.PhoneNumber = newUser.Phone != null ? newUser.Phone : user.PhoneNumber;
             user.Company = newUser.Company != null ? newUser.Company : user.Company;
-            user.Active = newUser.Active != null ? newUser.Active : user.Active;
+            user.Active = newUser.Active ? user.Active : newUser.Active;
             user.ProfileName = newUser.ProfileName != null ? newUser.ProfileName : user.ProfileName;
-            user.PasswordHash = newUser.Password != null ? ph.HashPassword(user, newUser.Password) : user.PasswordHash;
+            // user.PasswordHash = newUser.Password != null ? newPassword : user.PasswordHash;
         }
 
+        // if (roleString != newUser.ProfileName)
+        // {
+        //      _userManager.RemoveFromRoleAsync(user, roleString);
+        //      _userManager.AddToRoleAsync(user, newUser.ProfileName);
+        // }
+        // updateRole(roleString, newRoleString, user);
         // AuthorisationRepository.UpdateUserRole(user, newUser.Role, _userManager); 
         _AppDbContext.Set<Users>().Update(user);
         _AppDbContext.SaveChanges();
@@ -74,6 +87,7 @@ public class UserRepository : IUserRepository
         return user;
     }
 
+  
 
     public Users Delete(Guid id)
     {

@@ -34,7 +34,7 @@ public class UsersController : ControllerBase
     //
     //     return Ok(new { message = "success", data = result });
     // }
-    
+
     [HttpGet]
     public IActionResult GetAllUsers()
     {
@@ -52,7 +52,13 @@ public class UsersController : ControllerBase
                 .Set<Users>()
                 .FirstOrDefault(b => b.Id == Id);
 
-        _usersRepository.Update(Id, usersUpdateDto);
+        if (_user == null)
+        {
+            return NotFound();
+        }
+
+        var result = _usersRepository.Update(Id, usersUpdateDto);
+        Console.WriteLine(result);
         return Ok("success");
     }
 

@@ -12,7 +12,8 @@
           "Microsoft.IdentityModel.Tokens": "6.10.0",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.10.0",
-          "System.Linq.Dynamic.Core": "1.2.14"
+          "System.Linq.Dynamic.Core": "1.2.14",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "6.0.0.0"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -391,6 +392,30 @@
         "runtime": {
           "Domain.dll": {}
         }
+      },
+      "Microsoft.AspNetCore.Mvc.Abstractions/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Mvc.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1222.57109"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Routing.Abstractions/6.0.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Routing.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1222.57109"
+          }
+        }
+      },
+      "Microsoft.Extensions.Features/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Features.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1222.57109"
+          }
+        }
       }
     }
   },
@@ -673,6 +698,21 @@
     },
     "Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Mvc.Abstractions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Routing.Abstractions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Features/6.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
